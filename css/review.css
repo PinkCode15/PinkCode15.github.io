@@ -1,0 +1,613 @@
+body{
+	width: 100%
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+
+
+.caption a{
+	text-decoration-line: 
+	color: black;
+}
+nav{
+	background-color: white !important;
+	border: 1px solid transparent;
+	box-shadow: 0px 5px 30px 0px grey;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:100;
+}
+.nav-pills> li> a{
+	margin-top: 7px;
+	color: black;
+	margin-bottom: 1px;
+
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+}
+.nav-pills> li> a:hover{
+	background-color:#01AEED;
+	color:white;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+	margin-right: 12px;
+	margin-left: 3px;
+   background-color: #01AEED;
+}
+
+
+.navbar button:hover{
+	background-color: #01AEED; 
+}
+
+.film_img{
+	height: 60px;
+}
+.img-head{
+	margin-top: -15px;
+	padding-left:120px;
+	padding-bottom: 60px;
+}
+.nav-search{
+	margin-left: 27px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	border:1px solid black;
+	border-radius: 0px !important;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+.arrow-down{
+	font-size: 20px;
+}
+.input-search{
+	margin-top: 12px;
+	border: 1px solid black;
+    color: black;
+    font-size: 12px;
+    margin-left: -5px;
+    padding:6px 10px;
+	
+}
+.nav-pills > li.nav_search :hover{
+	background-color: white!important;
+}
+.part{
+	margin-top: 90px;
+	margin-left: 150px;
+	width: 750px;
+	padding-left: 210px;
+	
+	} 
+.love{
+	border: 1px solid transparent;
+	box-shadow: 0px 5px 30px 0px grey;
+	margin-bottom: 20px;
+	width: 702px;
+	padding-left: 0px !important;
+
+}
+.part a{
+	color:white;
+	text-decoration:none;
+}
+.pick{
+	/*margin-left: 200px;*/
+	background-color: black;
+	width: 700px;
+}
+.view{
+	font-family: 'Josefin Sans', sans-serif;
+	padding:5px 61px;
+	font-size: 30px;
+	background-color: gray;
+	
+}
+.write{
+	font-family: 'Josefin Sans', sans-serif;
+	margin:5px 61px;
+	font-size: 30px;
+	
+	}
+.write :hover{
+	text-decoration: underline;
+}
+.gly-view{
+	color:white!important;
+	padding-left: 20px !important;
+	font-size: 25px;
+}
+.gly-write{
+	color:white;
+	padding-left: 20px !important;
+	font-size: 25px;
+}
+.b4-msgs{
+	width:700px;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 10px 0px grey;
+	/*margin-left: 200px;*/
+	/*border: 1px solid black;*/
+}
+.view-search{
+	font-family: 'Josefin Sans', sans-serif;
+	width: 220px;
+	padding-left: 10px;
+
+}
+.view-sort{
+	font-family: 'Josefin Sans', sans-serif;
+	float: right;
+	width: 113px;
+}
+.view-sort select{
+	height: 30px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.nav-search-reused{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	/*border:1px solid black;*/
+	border-radius: 0px !important;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: white !important;
+	background-color: black !important;
+}
+.arrow-down2{
+	font-size: 22px;
+}
+
+.input-search2{
+	border: 1px solid black;
+    color: black;
+    font-size: 12px;
+    padding:6px 10px;
+    margin-left: -5px;
+}
+.msgs{
+	padding-left: 15px;
+	/*margin-left: 200px;*/
+	width: 700px;
+	
+	height: 700px;
+	padding-top: 20px;
+	overflow: auto;
+	font-family: 'Karla', sans-serif;
+}
+.user-side{
+	float: left;
+	width: 80px;
+}
+.comment-side{
+	float: left;
+	margin-left: 40px;
+	margin-top: 5px;
+	width: 470px;
+	
+}
+.date-side{
+	float: right;
+	text-align: right;
+	margin-top: 40px;
+}
+
+.each-comment{
+	float: left; 
+	margin-bottom: 30px;
+}
+.movie-name{
+	
+	font-size: 20px;
+}
+.movie-pic{
+	margin-top: -12px;
+ 	float:right;
+ 	margin-right:200px; 
+}
+.user{
+	border-radius: 50%;
+	border:2px solid black;
+	width: 70px;
+	height: 70px;
+	margin-bottom: 0px;
+	
+}
+.cave{
+	height: 59px !important;
+	border-radius: 50%;
+}
+.user2{
+	border:2px solid black;
+	width: 70px;
+	margin-bottom: 0px;
+	height: 50px;
+	border: none;
+}
+.movie-img{
+	width: 50px !important;
+	height: 40px !important;
+}
+.written-msgs{
+	margin-top: 13px;
+	width: 450px;
+	
+}
+.btn-gly{
+	background-color: white;
+	border:2px solid white;
+	border-style: outset;
+	margin-top: 10px;
+}
+.gly{
+	font-size: 18px;
+	background-color: white;
+}
+.date-side p{
+	margin-bottom: 0px;
+}
+.logo{
+	height: 300px;
+}
+.line-break{
+	margin-left: 20px;
+	width: 98%;
+	height:20px;
+}
+.myFooter{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	background-color: grey;
+	padding: 0px 0px 30px 0px;
+	margin-top: 3px;
+	width:98.5vw;
+	margin-top:  10px;
+}
+.download{
+	border:3px solid white;
+	background-color: grey;
+	margin-bottom: 20px;
+	opacity: 0.6;
+	font-size: 20px;
+}
+.download a{
+	color: black;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	/*font-family: 'Faster One', cursive;*/
+}
+.download a:hover{
+	color: white !important;
+}
+.follow-section{
+	margin-top: 20px;
+	color: black;
+	margin-bottom: 30px;
+}
+.letter{
+	padding-left: 30px;
+}
+.contact{
+	text-align: right;
+}
+.pad a{
+	
+	color:black !important;
+}
+.search_color2{
+	background-color:grey !important; 
+	color: black !important;
+	border: 2px solid white;
+	border-style: outset;
+}
+
+.input-box2{
+	width: 300px;
+}
+.follow-section .input-group-addon{
+ 	background-color: black;
+ 	border:1px solid black;
+ 	color:black;
+ 	}
+
+.follow-section .form-control{
+ 	background-color: white;
+ 	border : 1px solid white;
+ 	
+ }
+ 
+.images{
+	width: 40px;
+	margin-right: 1px;
+}
+.copyright{
+	font-family: 'Playfair Display', serif;
+	color: black;
+
+}
+#copy-p{
+	font-family: 'Playfair Display', serif;
+	margin-top:30px;
+	font-size: 18px;
+	margin-bottom: -10px;
+}
+
+
+
+@media(max-width: 768px){
+	.img-head{
+		padding-left:125px;
+	}
+	.nav-search{
+	margin-left: 100px;
+}
+.nav-pills> li> a{
+	font-size: 15px;
+	}
+
+.part{
+	margin-top: 80px;
+	margin-left: 0px;
+	width: 350px;
+	padding-left: 7px;
+} 
+
+.part a{
+	color:white;
+	text-decoration:none;
+}
+.love{
+	border: 1px solid transparent;
+	box-shadow: 0px 5px 30px 0px grey;
+	margin-bottom: 25px;
+	width: 345px;
+	padding-left: 0px !important;
+
+}
+.pick{
+	margin-left: 0px;
+	background-color: black;
+	width: 343px;
+}
+.view{
+	padding:3px 10.6px;
+	font-size: 20px;
+}
+.write{
+	margin:5px 10.6px;
+	font-size: 20px;
+	
+	}
+.write :hover{
+	text-decoration: underline !important;
+}
+.gly-view{
+	color:white!important;
+	padding-left: 10px !important;
+	font-size: 15px;
+}
+.gly-write{
+	color:white;
+	padding-left: 10px !important;
+	font-size: 15px;
+}
+
+
+.b4-msgs{
+	width:343px;
+	margin-left: 0px;
+	
+}
+.view-search{
+	width: 150px;
+	padding-left: 5px;
+
+}
+.view-sort{
+	float: right;
+	width: 107px;
+}
+.view-sort select{
+	height: 25px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.nav-search-reused{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	/*border:1px solid black;*/
+	border-radius: 0px !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: none;
+	color: white !important;
+	background-color: black !important;
+}
+.arrow-down2{
+	font-size: 13px;
+}
+
+.input-search2{
+	border: 1px solid black;
+    color: black;
+    font-size: 11.8px;
+    padding:3px 10px;
+    margin-left: -5px;
+}
+.msgs{
+	padding-left: 20px;
+	margin-left: 0px;
+	width: 343px;
+	height: 400px;
+	padding-top: 20px;
+	overflow: auto;
+}
+.user-side{
+	float:left ;
+	width: 60px;
+}
+.username{
+	text-align: left;
+	font-size: 10px;
+}
+.comment-side{
+	float: left;
+	margin-left: 12px;
+	margin-top: 5px;
+	width: 175px;
+	margin-right: 0px;
+}
+.date-side{
+	float: right;
+	text-align: right;
+	margin-top: 50px;
+}
+
+
+.movie-name{
+	
+	font-size: 12.8px;
+	font-weight: bold;
+}
+.movie-pic{
+	margin-top: -12px;
+ 	float:right;
+ 	margin-right:20px; 
+}
+.user{
+	border-radius: 50%;
+	border:2px solid black;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 0px;
+	
+}
+.cave{
+	height: 39px !important;
+	border-radius: 50%;
+}
+.user2{
+	float: left;
+	margin-left: 500px;
+	border:2px solid black;
+	width: 50px;
+	margin-bottom: 0px;
+	height: 50px;
+	border: none;
+	margin-top: -20px;
+}
+.movie-img{
+	width: 40px !important;
+	height: 30px !important;
+}
+.written-msgs{
+	font-size: 12px;
+	margin-top: 0px;
+	width: 160px;
+	
+}
+.btn-gly{
+	background-color: white;
+	border:2px solid white;
+	border-style: outset;
+	margin-top: 10px;
+}
+.gly{
+	background-color: white;
+}
+.date-side p{
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+.logo{
+	height: 200px;
+}
+	
+.line-break{
+	margin-top: 8px;
+	width: 95%;
+	margin-left: 15px;
+}
+.myFooter{
+	background-color: grey;
+	padding: 0px 0px 30px 0px;
+	margin-top: 13px;
+	width:100%;
+}
+.contact{
+	text-align: left;
+}
+.letter{
+	padding-left: 10px;
+}
+.pad{
+	padding-bottom: 20px;
+}
+.download{
+	border:3px solid white;
+	background-color: grey;
+	margin-bottom: 15px;
+	opacity: 0.6;
+	font-size: 15px;
+}
+
+.follow-section{
+	margin-top: 0px;
+	color: black;
+	margin-bottom: 30px;
+}
+
+.input-box2{
+	width: 300px;
+}
+.follow-section .input-group-addon{
+ 	background-color: black;
+ 	border:1px solid black;
+ 	color:black;
+ 	}
+
+.follow-section .form-control{
+ 	background-color: white;
+ 	border : 1px solid white;
+ 	
+ }
+ 
+.images{
+	width: 40px;
+	margin-right: 13px;
+}
+.copyright{
+	color: black;
+
+}
+#copy-p{
+	margin-top:30px;
+	font-size: 15px;
+	margin-bottom: -10px;
+}
+
+
+.line-break img{
+	width:17px;
+}
+
+}

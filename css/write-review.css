@@ -1,0 +1,420 @@
+
+body{
+	width: 100%
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+
+
+.caption a{
+	text-decoration-line: 
+	color: black;
+}
+.tgl{
+	margin-top: 13px;
+}
+nav{
+	background-color: white !important;
+	border: 1px solid transparent;
+	box-shadow: 0px 5px 30px 0px grey;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:100;
+}
+.nav-pills> li> a{
+	margin-top: 7px;
+	color: black;
+	margin-bottom: 1px;
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+}
+.nav-pills> li> a:hover{
+	background-color:#01AEED;
+	color:white;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+	margin-right: 12px;
+	margin-left: 3px;
+   background-color: #01AEED;
+}
+.search_color{
+	background-color: #01AEED !important; 
+}
+
+.navbar button:hover{
+	background-color: #01AEED; 
+}
+
+.film_img{
+	height: 60px;
+}
+.img-head{
+	margin-top: -15px;
+	padding-left:120px;
+	padding-bottom: 60px;
+}
+.nav-search{
+	margin-left: 27px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	border:1px solid black;
+	border-radius: 0px !important;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+.arrow-down{
+	font-size: 20px;
+}
+.input-search{
+	margin-top: 12px;
+	border: 1px solid black;
+    color: black;
+    font-size: 12px;
+    margin-left: -5px;
+    padding:6px 10px;
+	
+}
+.nav-pills > li.nav_search :hover{
+	background-color: white!important;
+}
+.part{
+	margin-top: 90px;
+	margin-left: 150px;
+	width: 750px;
+	padding-left: 215px;
+} 
+
+.part a{
+	color:white;
+	text-decoration:none;
+}
+.love{
+	border: 1px solid transparent;
+	box-shadow: 0px 5px 30px 0px grey;
+	width: 648px;
+	padding-left: 0px !important;
+	height: 520px;
+	margin-bottom: 20px;
+
+}
+.pick{
+	/*margin-left: 200px;*/
+	/*margin-left: 14.7vw;*/
+	background-color: black;
+	width: 647px;
+}
+.view{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	margin:5px 52px;
+	
+}
+.write{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	padding:5px 52px;
+	background-color: gray;
+	
+	}
+.view :hover{
+	text-decoration: underline;
+}
+.gly-view{
+	color:white!important;
+	padding-left: 15px !important;
+	font-size: 25px;
+}
+.gly-write{
+	color:white;
+	padding-left: 15px !important;
+	font-size: 25px;
+}
+.kind{
+	/*margin-left: 14.7vw;*/
+	width: 647px;
+	/*border-right: 1px solid black;*/
+}
+select{
+	font-size: 20px;
+	font-family: 'Karla', sans-serif;
+}
+.write-area{
+	font-family: 'Karla', sans-serif;
+	/*margin-left: 14.7vw;*/
+	width: 647px;
+	height: 400px;
+	font-size: 18px;
+	border:none;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+}
+.out-ok{
+}
+.ok{
+	margin-left: 40.7vw;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	padding: 5px 30px;
+}
+.out-ok :hover{
+	padding: 6px 31px;
+}
+.logo{
+	height: 300px;
+}
+.line-break{
+	margin-left: 20px;
+	width: 98%;
+	height:20px;
+}
+.myFooter{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	background-color: grey;
+	padding: 0px 0px 30px 0px;
+	margin-top: 3px;
+	width:98.5vw;
+	margin-top:  10px;
+}
+.download{
+	border:3px solid white;
+	background-color: grey;
+	margin-bottom: 20px;
+	opacity: 0.6;
+	font-size: 20px;
+}
+.download a{
+	color: black;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	/*font-family: 'Faster One', cursive;*/
+}
+.download a:hover{
+	color: white !important;
+}
+.follow-section{
+	margin-top: 20px;
+	color: black;
+	margin-bottom: 30px;
+}
+.letter{
+	padding-left: 30px;
+}
+.contact{
+	text-align: right;
+}
+.pad a{
+	
+	color:black !important;
+}
+.search_color2{
+	background-color:grey !important; 
+	color: black !important;
+	border: 2px solid white;
+	border-style: outset;
+}
+
+.input-box2{
+	width: 300px;
+}
+.follow-section .input-group-addon{
+ 	background-color: black;
+ 	border:1px solid black;
+ 	color:black;
+ 	}
+
+.follow-section .form-control{
+ 	background-color: white;
+ 	border : 1px solid white;
+ 	
+ }
+ 
+.images{
+	width: 40px;
+	margin-right: 1px;
+}
+.copyright{
+	font-family: 'Playfair Display', serif;
+	color: black;
+
+}
+#copy-p{
+	font-family: 'Playfair Display', serif;
+	margin-top:30px;
+	font-size: 15px;
+	margin-bottom: -10px;
+}
+
+
+
+@media(max-width: 768px){
+	.img-head{
+		padding-left:125px;
+	}
+	.nav-search{
+	margin-left: 100px;
+}
+.nav-pills> li> a{
+	font-size: 15px;
+	}
+.part{
+	margin-top: 80px;
+	margin-left: 0px;
+	width: 350px;
+	padding-left: 7px;
+} 
+
+.part a{
+	color:white;
+	text-decoration:none;
+}
+.love{
+	border: 1px solid transparent;
+	box-shadow: 0px 5px 30px 0px grey;
+	width: 344px;
+	padding-left: 0px !important;
+	height: 400px;
+	margin-bottom: 25px;
+}
+.pick{
+	margin-left: 0px;
+	background-color: black;
+	width: 340px;
+}
+.view{
+	margin:5px 13px;
+	font-size: 20px;
+}
+.write{
+	padding:3px 13px;
+	font-size: 20px;
+	background-color: gray;
+	
+	}
+.view :hover{
+	text-decoration: underline;
+}
+.gly-view{
+	color:white!important;
+	padding-left: 10px !important;
+	font-size: 15px;
+}
+.gly-write{
+	color:white;
+	padding-left: 10px !important;
+	font-size: 15px;
+}
+.kind{
+	margin-left: 0px;
+	width: 340px;
+
+}
+select{
+	font-size: 15px;
+	scroll-behavior: auto;
+}
+
+.write-area{
+	margin-left: 0px;
+	width: 342px;
+	height: 300px;
+	font-size: 15px;
+}
+.ok{
+	margin-left: 270px;
+	font-size: 18px;
+	background-color: black;
+	color: white;
+	padding: 3px 20px;
+}
+.out-ok :hover{
+	padding: 4px 21px;
+}
+.logo{
+	height: 200px;
+}
+	
+.contact{
+	text-align: left;
+}
+.letter{
+	padding-left: 10px;
+}
+.pad{
+	padding-bottom: 20px;
+
+}
+.line-break{
+	margin-top: 8px;
+	width: 95%;
+	margin-left: 15px;
+}
+.myFooter{
+	background-color: grey;
+	padding: 0px 0px 30px 0px;
+	margin-top: 13px;
+	width:100%;
+}
+.download{
+	border:3px solid white;
+	background-color: grey;
+	margin-bottom: 15px;
+	opacity: 0.6;
+	font-size: 15px;
+}
+
+.follow-section{
+	margin-top: 0px;
+	color: black;
+	margin-bottom: 30px;
+}
+
+.input-box2{
+	width: 300px;
+}
+.follow-section .input-group-addon{
+ 	background-color: black;
+ 	border:1px solid black;
+ 	color:black;
+ 	}
+
+.follow-section .form-control{
+ 	background-color: white;
+ 	border : 1px solid white;
+ 	
+ }
+ 
+.images{
+	width: 40px;
+	margin-right: 13px;
+}
+.copyright{
+	color: black;
+
+}
+#copy-p{
+	margin-top:30px;
+	font-size: 15px;
+	margin-bottom: -10px;
+}
+
+
+.line-break img{
+	width:17px;
+}
+
+}

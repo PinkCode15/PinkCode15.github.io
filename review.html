@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Film Express</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/review.css">
+    <link rel="icon" href="img/favicon.png" />
+   <link async href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<!-- My Navbar -->
+	  <nav class="navbar navbar-default slide-nav">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand  img-head" href="index.html">
+	      <img alt="Film Express" src="img/FILM.JPEG" class="film_img" >
+	      </a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-right nav-pills red-bg">
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li class="active"><a href="review.html">REVIEWS</a></li>
+          <li><a href="register.html">REGISTER</a></li>
+          <li><a href="login.html">LOG IN</a></li>
+          <li class="nav_search"><button type="button" class="btn btn-default btn-lg nav-search">
+              <span class="glyphicon glyphicon-search arrow-down" aria-hidden="true"></span>
+              </button>
+              <input type="search" placeholder="Search..." class="input-search" >
+          </li>
+        </ul>
+        <div class="col-lg-9">
+          <!-- <div class="input-group inp">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default search_color" type="button">Search</button>
+            </span> -->
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->  
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+<div class="part">
+  <div class="container love">
+    <div class="pick">
+      <span class="view"><a >View Reviews</a><span class="glyphicon glyphicon-eye-open gly-view" aria-hidden="true"></span> </span>
+      <span class="write"><a href="write-review.html">Write Review<span class="glyphicon glyphicon-pencil gly-write" aria-hidden="true"></span></a></span>
+    </div>
+    <div class="b4-msgs">
+      <span class="view-search">
+         <button type="button" class="btn btn-default btn-lg nav-search-reused">
+          <span class="glyphicon glyphicon-search arrow-down2" aria-hidden="true"></span>
+          </button>
+          <input type="search" placeholder="Search..." class="input-search2" >
+      </span>
+      <span class="view-sort">
+        <select >
+          <option>Sort-by</option>
+          <option>Date</option>
+          <option>Movie name</option>
+        </select>
+      </span>
+    </div>
+
+    <div class="msgs">
+      <div class="each-comment">
+        <span class="user-side">
+          <a class="thumbnail user">
+                <img src="img/avatar-m1.jpg" alt="..." class="cave" >
+          </a>
+          <p class="username">Ken-rulez</p>
+        </span>
+        <span class="comment-side">
+          <p> <span class="movie-name">Isoken</span>
+              <span class="movie-pic">
+                <a class="thumbnail user2">
+                  <img src="img/isoken.jpg" alt="..." class="movie-img" >
+                </a>
+              </span>
+          </p>
+          <div class="written-msgs">
+            Isoken is a really nice movie, a must-watch. My favourite part was when she trying to 
+            explain to the American guy her relationship status..lol.
+          </div>
+          <button class= "btn-gly"><span class="glyphicon glyphicon-thumbs-up gly" aria-hidden="true"></span> 20</button>
+        </span>
+        <span class="date-side">
+          <p>25/02/18</p>
+          <p>11:00am</p>
+        </span>
+      </div>
+
+      
+      <div class="each-comment" >
+        <span class="user-side">
+          <a class="thumbnail user">
+                <img src="img/avatar-m4.jpg" alt="..." class="cave" >
+          </a>
+          <p class="username">BayoKing</p>
+        </span>
+        <span class="comment-side">
+          <p> <span class="movie-name">Sergeant Tutu</span>
+              <span class="movie-pic">
+                <a class="thumbnail user2">
+                  <img src="img/sergeant_movie.jpg" alt="..." class="movie-img" >
+                </a>
+              </span>
+          </p>
+          <div class="written-msgs">
+           The movie was awesome :). It was really funny and projected the armed forces quite well, LOL.Tutu was just being funny, he made sarcastic comments when his boss wanted him to go on a dangerous mission. His partner was putting up a cool front aspa he feareth nothing but we could all see he was the scaredy cat.
+          </div>
+          <button class= "btn-gly"><span class="glyphicon glyphicon-thumbs-up gly" aria-hidden="true"></span> 20</button>
+        </span>
+        <span class="date-side">
+          <p>10/02/18</p>
+          <p>2:00pm</p>
+        </span>
+      </div>
+
+
+     <div class="each-comment" >
+        <span class="user-side">
+          <a class="thumbnail user">
+                <img src="img/avatar-f3.jpg" alt="..." class="cave" >
+          </a>
+          <p class="username">ChiomaWright</p>
+        </span>
+        <span class="comment-side">
+          <p> <span class="movie-name">Miss Flawless</span>
+              <span class="movie-pic">
+                <a class="thumbnail user2">
+                  <img src="img/flawless_movie.jpg" alt="..." class="movie-img" >
+                </a>
+              </span>
+          </p>
+          <div class="written-msgs">
+            This is a true Nigerian movie. It truly shows how Nigerian moms always want control over 
+        their children's lives and most times this authoritative attitude is more detrimental than it is helpful. She should have known when to cut her mother's coat over her life, no offense to mums ohhh, still take her advice tho but she should make her own choice. Last last sha, there is no love like a mother's love for her child :).
+          </div>
+          <button class= "btn-gly"><span class="glyphicon glyphicon-thumbs-up gly" aria-hidden="true"></span> 15</button>
+        </span>
+        <span class="date-side">
+          <p>8/02/18</p>
+          <p>5:00pm</p>
+        </span>
+      </div>
+
+
+      <div class="each-comment">
+        <span class="user-side">
+          <a class="thumbnail user">
+                <img src="img/avatar-m2.jpg" alt="..." class="cave" >
+          </a>
+          <p class="username">Emmy</p>
+        </span>
+        <span class="comment-side">
+          <p> <span class="movie-name">Just Not Married</span>
+              <span class="movie-pic">
+                <a class="thumbnail user2">
+                  <img src="img/notmarried_movie.jpg" alt="..." class="movie-img" >
+                </a>
+              </span>
+          </p>
+          <div class="written-msgs">
+            Naija comedy rocks mehn. How can you not be married when you clearly had a wedding ehn? You want to use her to
+            play abi, we definitely did not see that coming. If you are reading this better goan watch this film.
+          </div>
+          <button class= "btn-gly"><span class="glyphicon glyphicon-thumbs-up gly" aria-hidden="true"></span> 30</button>
+        </span>
+        <span class="date-side">
+          <p>5/02/18</p>
+          <p>12:00pm</p>
+        </span>
+      </div>
+
+      <div class="each-comment">
+        <span class="user-side">
+          <a class="thumbnail user">
+                <img src="img/avatar-f1.jpg" alt="..." class="cave" >
+          </a>
+          <p class="username">PrincessAmy</p>
+        </span>
+        <span class="comment-side">
+          <p> <span class="movie-name">Just Not Married</span>
+              <span class="movie-pic">
+                <a class="thumbnail user2">
+                  <img src="img/notmarried_movie.jpg" alt="..." class="movie-img" >
+                </a>
+              </span>
+          </p>
+          <div class="written-msgs">
+            @Emmy thanks for the review, i did not regret watching this. Chai Fummy why did you finish the guy like that..lol
+            He deserved it sha. Nice movie to watch.
+          </div>
+          <button class= "btn-gly"><span class="glyphicon glyphicon-thumbs-up gly" aria-hidden="true"></span> 8</button>
+        </span>
+        <span class="date-side">
+          <p>5/02/18</p>
+          <p>3:00pm</p>
+        </span>
+      </div>
+
+      <div class="each-comment" >
+        <span class="user-side">
+          <a class="thumbnail user">
+                <img src="img/avatar-f2.jpg" alt="..." class="cave" >
+          </a>
+          <p class="username">Freespirit</p>
+        </span>
+        <span class="comment-side">
+          <p> <span class="movie-name">Undercover Lover</span>
+              <span class="movie-pic">
+                <a class="thumbnail user2">
+                  <img src="img/undercover_movie.jpg" alt="..." class="movie-img" >
+                </a>
+              </span>
+          </p>
+          <div class="written-msgs">
+            What a twist! *Spoiler alert* Like who would have known that the guy was rich.The movie was
+        dope, super funny mehn, the part where he saw the garri they were drinking made me literally LOL. Then that his player friend mehn, there really is such a thing as karma, hehehe.
+          </div>
+          <button class= "btn-gly"><span class="glyphicon glyphicon-thumbs-up gly" aria-hidden="true"></span> 19</button>
+        </span>
+        <span class="date-side">
+          <p>2/02/18</p>
+          <p>6:00pm</p>
+        </span>
+      </div>
+
+
+    </div>
+  </div>
+</div> 
+
+</div>
+<div class="line-break"> 
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+<img src="img/line_cut.jpg" height="20px">
+
+</div>
+<!-- My Footer -->
+  <div class="myFooter">
+      <div class="download">
+        <a href="https://play.google.com/store;?hl=en" target="_blank"><Marquee>Film Express Mobile App is finally here. Download the App now!!!
+        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+        </Marquee>
+        </a>
+      </div>
+      <div class="container">
+      <div class="row follow-section">
+        <div class = "col-md-4 section">
+          <h3 class="foot-head">Follow Us</h3>
+          <div class="pad">
+            <a href="https://www.facebook.com/" target="_blank" ><img src="img/facebook-icon.jpg" class="images"></a>
+            <a href="https://twitter.com/" target="_blank" ><img src="img/twitter-icon.jpg" class="images"></a>
+            <!-- <a href="https://accounts.google.com/" target="_blank" ><img src="img/googleplus-icon.jpg" class="images"></a> -->
+            <a href="https://instagram.com/" target="_blank" ><img src="img/instagram-icon.jpg" class="images"></a>
+          </div>
+        </div>
+        <div class = "col-md-4 letter">
+          <h3 class="foot-head">News Letter</h3>
+          <div class="pad">
+            <div class="input-group input-box2 " >
+              <input type="text email" class="form-control" placeholder="Enter your email" aria-describedby="basic-addon2">
+               <span class="input-group-btn">
+                <button class="btn btn-default search_color2" type="button">Subscribe</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class = "col-md-4 contact">
+            <h3 class="foot-head">Contact Us</h3>
+            <div class="pad">
+            <a href="https://accounts.google.com/" target="_blank">filmExpressthoughts@gmail.com</a>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class = "copyright text-center">
+        <p id= "copy-p">Film Express &copy; 2018 Stacey All rights Reserved </p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--script src="js/film.js"></script-->
+
+  </body>
+</html>
